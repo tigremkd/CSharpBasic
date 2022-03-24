@@ -24,12 +24,12 @@ namespace SEDC.Oop.Class07.Exercise.Models
         {
             Console.WriteLine("Default");
         }
-        public Employee(string fName, string lName, Role role, double Salary)
+        public Employee(string fName, string lName, Role role, double salary)
         {
             FirstName = fName;
             LastName = lName;
             Role = role;
-            Salary = Salary;
+            Salary = salary;
         }
         public Employee(double salary, Role role)
         {
